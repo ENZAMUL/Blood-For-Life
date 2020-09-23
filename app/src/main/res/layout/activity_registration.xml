@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".RegistrationActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/wave"
+        />
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:ems="10"
+        android:hint="@string/fullName"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        />
+    <EditText
+        android:id="@+id/fullEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        />
+    <EditText
+        android:id="@+id/contactno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:ems="10"
+        android:hint="@string/contactno"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        />
+    <CheckBox
+        android:id="@+id/hideContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/hideContact"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp"
+        android:theme="@style/AppTheme"
+        />
+
+    <TextView
+        android:id="@+id/dateofbirth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:ems="10"
+        android:hint="@string/dateofBirth"
+        android:inputType="date"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/gender"
+        android:textSize="16sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/genderId"
+        android:text="@string/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <RadioButton
+            android:id="@+id/maleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="16sp"
+            />
+        <RadioButton
+            android:id="@+id/femaleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="16sp"
+
+            />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/bloodGroupSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+
+        />
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/address"
+        android:textSize="16sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Spinner
+            android:id="@+id/divisionSpinnerReg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/round_border"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:layout_marginBottom="5dp" />
+        <Spinner
+            android:id="@+id/districtSpinnerReg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/round_border"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Spinner
+            android:id="@+id/thanaSpnnierReg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/round_border"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+        <EditText
+            android:id="@+id/areaname"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/round_border"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/areaName"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/beDonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/beADonor"
+        android:layout_marginBottom="5dp"
+        android:textSize="12sp"
+        android:theme="@style/AppTheme"
+        />
+
+    <TextView
+        android:id="@+id/giveLastDonateReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:ems="10"
+        android:hint="Last Donate Date"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/giveTotalDonateReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:ems="10"
+        android:hint="Total Donate"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"
+        />
+
+
+    <EditText
+        android:id="@+id/givePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_border"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btnRegisterUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_bg"
+        android:text="@string/register"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "471558703071",
+    "firebase_url": "https://blood-for-life-9795e.firebaseio.com",
+    "project_id": "blood-for-life-9795e",
+    "storage_bucket": "blood-for-life-9795e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471558703071:android:57ed7592201644f890e66a",
+        "android_client_info": {
+          "package_name": "com.sayem.bloodforlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471558703071-mcl1enrkb2soq6401gnmblt27lksclu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sayem.bloodforlife",
+            "certificate_hash": "4894608676d844a2d555276469a87770d9776b8b"
+          }
+        },
+        {
+          "client_id": "471558703071-7ktstijq8j512c8sf71dfj5easaut1gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhzjUOrLB89yawNJzcNruOTP2cpjjIOrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471558703071-7ktstijq8j512c8sf71dfj5easaut1gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

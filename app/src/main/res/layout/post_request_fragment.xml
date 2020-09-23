@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/myAllRequest"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="My All Requests"
+            android:background="@color/green"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/allBloodManagedHistory"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Managed History"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@color/green"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/square_shape"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post A New Request Here"
+                android:background="@color/green"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:id="@+id/patientName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="Patient full name"
+                android:inputType="text"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/patientAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="Age of Patient"
+                android:inputType="text"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Spinner
+                android:id="@+id/patientBloodGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:textSize="16sp"
+                android:hint="Patient Blood Group"
+                android:inputType="text"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/patientProblemDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="Write Patient Problem Detials"
+                android:inputType="text"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/patientBloodNeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="How Many Bags of Blood Needed?"
+                android:inputType="text"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/patientBloodNeedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="In which date blood needed?"
+                android:inputType="date"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/patientHospitalName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="Hospital Name Where Patient Admited"
+                android:inputType="text"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/patientLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="Location"
+                android:inputType="text"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/patientContactPerson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="Name of Contact Person"
+                android:inputType="text"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:id="@+id/patientPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/round_border"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:hint="Phone Number of Contact Person"
+                android:inputType="phone"
+                android:layout_marginBottom="5dp"
+                />
+
+            <ProgressBar
+                android:id="@+id/postReqProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/btnPostRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/green"
+                android:text="Post Blood Request Now"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

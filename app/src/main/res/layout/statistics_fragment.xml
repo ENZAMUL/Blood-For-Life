@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total User"
+                android:background="@color/green"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/countUser"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Count User"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Present Donor"
+                android:background="@color/green"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/countDonateUser"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Count Donor"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/square_shape"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/green">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Blood Group"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Total User"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="A+"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/square_shape"/>
+
+            <TextView
+                android:id="@+id/countAp"
+                android:layout_width="0dp"
+                android:background="@drawable/square_shape"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="count"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/countApPer"
+                android:background="@drawable/square_shape"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="A-"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/square_shape"/>
+
+            <TextView
+                android:id="@+id/countAn"
+                android:layout_width="0dp"
+                android:background="@drawable/square_shape"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="count"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/countAnPer"
+                android:background="@drawable/square_shape"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="B+"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/square_shape"/>
+
+            <TextView
+                android:id="@+id/countBp"
+                android:layout_width="0dp"
+                android:background="@drawable/square_shape"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="count"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/countBpPer"
+                android:background="@drawable/square_shape"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="B-"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/square_shape"/>
+
+            <TextView
+                android:id="@+id/countBn"
+                android:layout_width="0dp"
+                android:background="@drawable/square_shape"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="count"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/countBnPer"
+                android:background="@drawable/square_shape"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="AB+"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/square_shape"/>
+
+            <TextView
+                android:id="@+id/countABp"
+                android:layout_width="0dp"
+                android:background="@drawable/square_shape"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="count"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/countABper"
+                android:background="@drawable/square_shape"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="AB-"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/square_shape"/>
+
+            <TextView
+                android:id="@+id/countABn"
+                android:layout_width="0dp"
+                android:background="@drawable/square_shape"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="count"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/countABnPer"
+                android:background="@drawable/square_shape"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="O+"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/square_shape"/>
+
+            <TextView
+                android:id="@+id/countOp"
+                android:layout_width="0dp"
+                android:background="@drawable/square_shape"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="count"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/countOpPer"
+                android:background="@drawable/square_shape"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/square_shape">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="O-"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/square_shape"/>
+
+            <TextView
+                android:id="@+id/countOn"
+                android:layout_width="0dp"
+                android:background="@drawable/square_shape"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="count"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/countOnPer"
+                android:background="@drawable/square_shape"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Percentage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

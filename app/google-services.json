@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "322270215472",
+    "firebase_url": "https://blood-for-life-2c45a.firebaseio.com",
+    "project_id": "blood-for-life-2c45a",
+    "storage_bucket": "blood-for-life-2c45a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322270215472:android:ec38f51f80cd87acf31cf5",
+        "android_client_info": {
+          "package_name": "com.enzamuls.blooddonation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322270215472-c9s5a6r8uu7gde1mmfq2vbi73ca9bqs9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnXcGv7RWCitVab3NIvOxEpMIe1ExRHrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322270215472-c9s5a6r8uu7gde1mmfq2vbi73ca9bqs9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

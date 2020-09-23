@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:background="@color/green"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/pdetailsImageView"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/facebookprofile"
+                    android:layout_marginRight="5dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="@android:color/white"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pdetailsUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="User Name"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="1dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/pdetailsRequestFor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Post A Request For"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/pdetailsTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Time"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/white"
+                            android:textStyle="italic"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:id="@+id/pdetailsDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:textColor="@android:color/white"
+                            android:textStyle="italic"
+                            android:textSize="14sp"
+                            android:layout_marginRight="5dp"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/square_shape"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Details"
+                    android:textSize="16sp"
+                    android:background="@color/green"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/pdetailsPatientName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Name"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:id="@+id/pdetailsPatientAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Age"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/pdetailsPatientBloodGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Blood Group"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/pdetailsPatientProblem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Problems"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/pdetailsPatientNeedBloodBags"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Blood Need Bags"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+                <TextView
+                    android:id="@+id/pdetailsPatientBloodNeedDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Needed Date"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+                <TextView
+                    android:id="@+id/pdetailsPatientHospitalName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hospital Name"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+                <TextView
+                    android:id="@+id/pdetailsPatientLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location Name"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+                <TextView
+                    android:id="@+id/pdetailsContactPerson"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name of Contact Person"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+                <TextView
+                    android:id="@+id/pdetailsContactPersonPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone of Contact Person"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="2dp"
+                    android:padding="3dp"
+                    android:layout_marginLeft="15dp"
+                    />
+                <TextView
+                    android:id="@+id/pdetailsStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"
+                    android:layout_marginBottom="5dp"
+                    android:padding="3dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/pdetailsUpdatePost"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Update"
+                        android:layout_marginRight="1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:background="@color/green"/>
+
+                    <Button
+                        android:id="@+id/pdetailsManagedBlood"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Managed"
+                        android:layout_marginRight="1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:background="@color/green"/>
+
+                    <Button
+                        android:id="@+id/pdetailsDeletePost"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Delete"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+
+                        android:background="@color/green"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawerGeneral"
+        android:title="@string/drawer_menu_general"
+        >
+        <menu>
+            <item
+                android:id="@+id/drawerHome"
+                android:title="@string/drawer_menu_home"
+                android:icon="@drawable/ic_home"
+                />
+            <item
+                android:id="@+id/drawerProfile"
+                android:title="@string/drawer_menu_myprofile"
+                android:icon="@drawable/ic_profile"
+                />
+            <item
+                android:id="@+id/drawerMyRequest"
+                android:title="@string/drawer_menu_postrequest"
+                android:icon="@drawable/ic_post_request"
+                />
+            <item
+                android:id="@+id/drawerMyAchievements"
+                android:title="@string/drawer_menu_myachievements"
+                android:icon="@drawable/ic_achivements"
+                />
+            <item
+                android:id="@+id/drawerSearchDonor"
+                android:title="@string/drawer_menu_finddonors"
+                android:icon="@drawable/ic_find_donor"
+                />
+            <item
+                android:id="@+id/drawerStatistic"
+                android:title="Statistics"
+                android:icon="@drawable/ic_assessment"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/drawerServices"
+        android:title="@string/drawer_menu_services"
+        >
+        <menu>
+            <item
+                android:id="@+id/drawerHospital"
+                android:title="@string/drawer_menu_hospital"
+                android:icon="@drawable/ic_local_hospital"
+                />
+            <item
+                android:id="@+id/drawerAmbulance"
+                android:title="@string/drawer_menu_ambulance"
+                android:icon="@drawable/ic_ambulance"
+                />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/drawerAdmin"
+        android:title="Admin Panel"
+        android:icon="@drawable/ic_admin"
+        />
+
+    <item
+        android:id="@+id/drawerLogout"
+        android:title="@string/drawer_menu_logout"
+        android:icon="@drawable/ic_logout"
+        />
+
+</menu>

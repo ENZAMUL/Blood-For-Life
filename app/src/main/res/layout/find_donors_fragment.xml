@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/square_shape">
+
+        <TextView
+            android:id="@+id/findAllDonor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Donors"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@color/green"
+            android:layout_marginBottom="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can search here indivisually"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <Spinner
+                    android:id="@+id/findDivision"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="text"
+                    android:hint="@string/division"
+                    android:background="@drawable/square_shape"/>
+
+                <Spinner
+                    android:id="@+id/findDistrict"
+                    android:background="@drawable/square_shape"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:inputType="text"
+                    android:layout_height="match_parent"
+                    android:hint="District"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/findSubDistrict"
+                    android:background="@drawable/square_shape"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:hint="Sub District"
+                    android:layout_marginRight="5dp"/>
+
+                <Spinner
+                    android:id="@+id/findBloodGroupSp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+
+                    android:hint="Blood Group"
+                    android:textStyle="bold"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:background="@drawable/square_shape"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/findSearchDonor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:text="Search Donor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/findSearchDonorRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>

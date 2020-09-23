@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/wave"
+            />
+
+        <EditText
+            android:id="@+id/editpatientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="Patient full name"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/editpatientAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="Age of Patient"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/editpatientBloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="Patient Blood Group"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/editpatientProblemDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="Write Patient Problem Detials"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/editpatientBloodNeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="How Many Bags of Blood Needed?"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/editpatientBloodNeedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="In which date blood needed?"
+            android:inputType="date"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/editpatientHospitalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="Hospital Name Where Patient Admited"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/editpatientLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="Location"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/editpatientContactPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="Name of Contact Person"
+            android:inputType="text"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/editpatientPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_border"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="Phone Number of Contact Person"
+            android:inputType="phone"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/editpostReqProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/editbtnPostRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_bg"
+            android:text="Update Blood Request"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
